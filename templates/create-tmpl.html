@@ -1,0 +1,32 @@
+{{define "create-tmpl.html"}}
+{{template "header-tmpl.html" .}}
+
+<div class="card">
+    <div class="card-header">
+        Employee
+    </div>
+    <div class="card-body">
+
+        <form method="POST" action="/insert">
+
+            <div class="form-group">
+              <label for="">Name:</label>
+              <input type="text"
+                class="form-control" name="name" id="name" aria-describedby="helpId" placeholder="">
+              <small id="helpId" class="form-text text-muted">Write your name</small>
+            </div>
+
+            <div class="form-group">
+              <label for="">Email:</label>
+              <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId" placeholder="">
+              <small id="emailHelpId" class="form-text text-muted">Write your email</small>
+            </div>
+
+            <button type="submit" class="btn btn-success">Submit</button>
+        
+        </form>
+    </div>
+</div>
+
+{{template "footer-tmpl.html" .}}
+{{end}}
