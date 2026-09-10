@@ -1,4 +1,4 @@
-# CRUD Go Application
+#GESTION DE EMPLEADOS
 
 Una aplicación web simple de CRUD (Create, Read, Update, Delete) para gestionar empleados, desarrollada en Go con base de datos MySQL.
 
