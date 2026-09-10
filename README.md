@@ -149,16 +149,6 @@ docker system prune -f
 4. Push a la rama (`git push origin feature/AmazingFeature`)
 5. Abre un Pull Request
 
-## Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
-
 ## Autor
 
-**Tu Nombre** - [Tu GitHub](https://github.com/tu-usuario)
-
-## Agradecimientos
-
-- [Go SQL Driver](https://github.com/go-sql-driver/mysql) - Driver MySQL para Go
-- [Bootstrap](https://getbootstrap.com/) - Framework CSS
-- [Docker](https://www.docker.com/) - Plataforma de contenedorización
+**Joaquin Brassinne** - [Tu GitHub](https://github.com/joaquinBrassinne)
